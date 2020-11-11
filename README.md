@@ -29,9 +29,10 @@ In order to run this codebase, the following must be installed:
 
 To confirm that the project builds correctly, navigate to the project and run `mvn clean install`.
 
-If you are in the `Solution` branch: This should display *"Build Success"* as the final status and show that a total of 24 tests ran, with 0 failures.
+If you are in the `Solution` branch: This should display `Build Success` as the final status and show that a total of 24 tests ran, with 0 failures.
 
-If you are in the `Stubbed` branch: You will have build failures. Resolve these failures by running CalculatorScenarioRunnerTest as a JUnit test and following the stack traces.
+If you are in the `Stubbed` branch: You will have build failures. Resolve these failures by running `CalculatorScenarioRunnerTest` as a `JUnit` test and following the stack traces.
 
 For the purposes of learning BDD, start by checking out the Stubbed branch.
-** If you will be attneding this as a workshop, we will walk through how to fix the Stubbed branch.**
+
+**_If you will be attneding this as a workshop, we will walk through how to fix the Stubbed branch.**
