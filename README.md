@@ -16,6 +16,9 @@ In order to run this codebase, the following must be installed:
 - **Java:**
   - This project was built using Java 13.0.2.
   - Confirm that Java is correctly installed by running `java -version`.
+    - If not installed, follow [this link](https://adoptopenjdk.net/) to download through AdoptOpenJDK.
+      - `Version: OpenJDK 11 (LTS)`
+      - `JVM: HotSpot`
   - Set your JAVA_HOME by editing with `vim ~/.bash_profile` and adding `export JAVA_HOME=$(/usr/libexec/java_home)`.
 
 - **Maven:**
