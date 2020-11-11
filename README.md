@@ -5,38 +5,33 @@ This project is a quick start for anyone is interested in learning how to create
 
 There are two main branches in this git repo that should be used for this workshop.
 
-Solution: This branch contains an application that has all steps implemented and tests passing, as well as some additional scenarios for multiplcation and division.
+`Solution:` This branch contains an application that has all steps implemented and tests passing, as well as some additional scenarios for multiplcation and division.
 
-Stubbed: This branch will have a few base scenarios for addition and subtraction, but nothing else.
+`Stubbed:` This branch will have a few base scenarios for addition and subtraction, but nothing else.
 
-
-
-### Set up:
+## Set up:
 
 In order to run this codebase, the following must be installed:
 
-Java:
-	This project was built using Java 13.0.2.
-	Confirm that Java is correctly installed by running "java --version"
-	Ensure that your JAVA_HOME is.
+- **Java:**
+  - This project was built using Java 13.0.2.
+  - Confirm that Java is correctly installed by running `java -version`.
+  - Set your JAVA_HOME by editing with `vim ~/.bash_profile` and adding `export JAVA_HOME=$(/usr/libexec/java_home)`.
 
-Maven:
-	This project was built using Apache Maven 3.6.3.
-	Confirm that Maven is installed by running "mvn -version".
-	Add the Maven bin directory to your path so you can run the "mvn" command.
+- **Maven:**
+  - This project was built using Apache Maven 3.6.3.
+  - Confirm that Maven is installed by running `mvn -version`.
+    - If not installed, you can install with [Homebrew](https://brew.sh/) using `brew install maven`.
+  - Add the Maven bin directory to your path so you can run the "mvn" command.
 
-Red Hat Developer Studio (or some Java IDE)
-	Optional Step: Install the Cucumber Eclipse Plugin: https://cucumber.github.io/cucumber-eclipse/
+- **Red Hat Developer Studio (or some Java IDE)**
+  - Optional Step: Install the Cucumber Eclipse Plugin: https://cucumber.github.io/cucumber-eclipse/
 
+To confirm that the project builds correctly, navigate to the project and run `mvn clean install`.
 
+If you are in the `Solution` branch: This should display *"Build Success"* as the final status and show that a total of 24 tests ran, with 0 failures.
 
-To confirm that the project builds correctly, navigate to the project and run "mvn install".
-
-If you are in the Solution branch: This should display "Build Success" as the final status and show that a total of 24 tests ran, with 0 failures.
-
-If you are in the Stubbed branch: You will have build failures. Resolve these failures by running CalculatorScenarioRunnerTest as a JUnit test and following the stack traces.
-
-
+If you are in the `Stubbed` branch: You will have build failures. Resolve these failures by running CalculatorScenarioRunnerTest as a JUnit test and following the stack traces.
 
 For the purposes of learning BDD, start by checking out the Stubbed branch.
 ** If you will be attneding this as a workshop, we will walk through how to fix the Stubbed branch.**
